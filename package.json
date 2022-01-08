@@ -2,7 +2,10 @@
   "name": "jest-another-rpg",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "jest"
   },
@@ -17,6 +20,6 @@
   },
   "homepage": "https://github.com/knharman/jest-another-RPG#readme",
   "devDependencies": {
-    "jest": "^27.4.5"
+    "jest": "^27.4.7"
   }
 }
